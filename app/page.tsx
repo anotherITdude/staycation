@@ -6,7 +6,7 @@ export default function Home() {
       <Image src={Logo} alt="" width={100} height={100} />
       <h1 className="text-2xl text-blue-950 font-bold capitalize mt-10 animate-pulse">
         {" "}
-        AAF Staycation Coming Soon...
+        AAF Staycation Campaign Coming Soon...
       </h1>
     </main>
   );
