@@ -8,8 +8,6 @@ interface ContainerProps {
 
 const Container: React.FC<ContainerProps> = ({ children }) => {
   const locale = usePathname();
-  console.log(locale);
-
   return (
     <div
       dir={`${locale === "/ar" ? "rtl" : "ltr"}`}
