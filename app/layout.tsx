@@ -17,7 +17,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <link rel="icon" href="../public/favicon.png" />
-      <body className={`bg-gray-400 ${inter.className}`}>{children}</body>
+      <body
+        suppressHydrationWarning={true}
+        className={`bg-gray-400 ${inter.className}`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
