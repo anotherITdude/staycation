@@ -11,7 +11,7 @@ export default function Home() {
       />
       <h1 className="text-2xl text-blue-950 font-bold capitalize mt-10 animate-pulse">
         {" "}
-        Staycation Coming Soon...
+        AAF Staycation Coming Soon...
       </h1>
     </main>
   );
