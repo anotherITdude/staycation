@@ -40,13 +40,15 @@ const Navbar = () => {
         </div>
       </motion.div>
       <motion.div className="pt-4 pr-4">
-        <Image
-          quality={100}
-          placeholder="empty"
-          src={logo}
-          alt="logo"
-          className="w-[110px]"
-        />
+        <Link href="/">
+          <Image
+            quality={100}
+            placeholder="empty"
+            src={logo}
+            alt="logo"
+            className="w-[110px] cursor-pointer"
+          />
+        </Link>
       </motion.div>
     </motion.nav>
   );
