@@ -21,8 +21,8 @@ const Terms = () => {
           <h1
             className={`  mb-4 ${
               locale === "/"
-                ? "font-DIN-Bold text-3xl"
-                : "text-5xl font-DINArabic-Black"
+                ? "font-DIN-Bold text-3xl md:text-4xl"
+                : "text-4xl font-DINArabic-Black  md:text-5xl"
             }`}
           >
             {t.terms_heading}

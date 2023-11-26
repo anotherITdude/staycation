@@ -26,6 +26,7 @@ const translations = {
   'step_3_content': 'REGISTER ON THE MICROSITE AFTER SCANNING THE QR CODE & UPLOAD THE PURCHASE RECEIPT.',
   'step_4_content': 'Submit your entry to enter the draw.',
   //Register Section
+  'registration': 'تسجيل',
   'name': 'الاسم',
   'name_error': 'الاسم مطلوب',
   'mobile': 'رقم الهاتف المتحرك',

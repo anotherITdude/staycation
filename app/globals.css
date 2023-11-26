@@ -37,3 +37,10 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+.registration_left {
+     background-image: url(./../public/form_left.png);
+  }
+
+}
