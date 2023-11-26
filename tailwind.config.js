@@ -15,6 +15,29 @@ module.exports = {
         "2xl": "1400px",
       },
     },
+    colors: {
+      webBlue: "#052C6F",
+      webWhite: "#ffffff",
+      webRed: "#E2211C",
+      webGray: "#3F4040",
+      webLiteGray: "#717171"
+    },
+    fontFamily: {
+      "DINCondensed-Bold": ["DINCondensed-Bold"],
+      "DIN-Bold": ["DIN-Bold"],
+      "DIN-Demi": ["DIN-Demi"],
+      // "gotham-black-italic": ["gotham-black-italic"],
+      // "neosans-bold": ["neosans-bold"],
+      // "neosans-medium": ["neosans-medium"],
+     "DINArabic-Black": ["DINArabic-Black"],
+      // "DINArabic-CondBlack": ["DINArabic-CondBlack"],
+      // "circularStd": ["circularStd"],
+      // "DINArabic-CondBold": ["DINArabic-CondBold"],
+     "helvetica-neue-lt-arabic-75-bol": ["helvetica-neue-lt-arabic-75-bol"],
+    "HelveticaNeueLTArabic-Roman": ["HelveticaNeueLTArabic-Roman"],
+      // "DIN-DemiBold": ["DIN-DemiBold"]
+
+    },
     extend: {
       colors: {
         border: "hsl(var(--border))",
