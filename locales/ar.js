@@ -48,7 +48,7 @@ const translations = {
   'submission_completed': 'اكتملت عملية التقديم الخاصة بك...',
   'upload_error_message': 'حدث خطأ ما. يرجى المحاولة مرة أخرى',
   //Terms and conditions
-  'terms_heading': '* الشروط والأحكام',
+  'terms_heading': '*الشروط والأحكام',
   'terms1': 'The competition is open only to UAE residents above 18 years of age with a valid Emirates ID.',
   'terms2': '2. To enter the promotion, participants have to purchase Al Ain Farms Fresh Milk, Yoghurt, Laban, Juice, Chicken or Eggs that have promotional QR code on them.',
   'terms3': '3. On the landing page, participants have to enter their name, email, mobile number, Emirate, Emirates ID number and upload a clear photo of the purchase receipt which shows the date and the Al Ain Farms product.',
