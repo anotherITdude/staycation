@@ -39,8 +39,32 @@
 }
 
 @layer components {
+
+   .howtoenter {
+    background-image: url(./../public/howtoenter_bg.svg);
+  }
+  .howtocard{
+    @apply p-6 pt-8 pb-8  border-webLiteGray border-[1px] text-webGray
+    rounded-2xl relative text-xs 
+  }
+  .howtocard_title{
+    @apply pt-1 pb-1 w-[80px] rounded-full bg-webBlue  absolute
+    text-sm text-center text-webWhite
+    -top-3
+  }
+  .pointers{
+    @apply w-8 h-8 pl-3 pt-[7px] bg-webBlue text-webWhite rounded-full
+  }
+  .pointers_ar{
+    @apply pr-3 mr-4
+  }
+  .pointers_main {
+    @apply flex flex-row justify-center w-[90%] md:w-[80%] gap-x-3
+  }
+
 .registration_left {
      background-image: url(./../public/form_left.png);
   }
+
 
 }

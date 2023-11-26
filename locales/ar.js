@@ -24,7 +24,7 @@ const translations = {
   'step_1_content': 'PURCHASE AL AIN FARMS FRESH MILK, YOGHURT, LABAN, JUICE, CHICKEN OR EGGS THAT HAVE PROMOTIONAL QR CODE ON THEM.',
   'step_2_content': 'SCAN THE QR CODE USING YOUR SMARTPHONE OR TABLET.',
   'step_3_content': 'REGISTER ON THE MICROSITE AFTER SCANNING THE QR CODE & UPLOAD THE PURCHASE RECEIPT.',
-  'step_4_content': 'Submit your entry to enter the draw.',
+  'step_4_content': 'SUBMIT YOUR ENTRY TO ENTER THE DRAW.',
   //Register Section
   'registration': 'تسجيل',
   'name': 'الاسم',
