@@ -51,10 +51,10 @@ const translations = {
   //Terms and conditions
   'terms_heading': '*TERMS & CONDITIONS',
   'terms1': 'The competition is open only to UAE residents above 18 years of age with a valid Emirates ID.',
-  'terms2': '2. To enter the promotion, participants have to purchase Al Ain Farms Fresh Milk, Yoghurt, Laban, Juice, Chicken or Eggs that have promotional QR code on them.',
-  'terms3': '3. On the landing page, participants have to enter their name, email, mobile number, Emirate, Emirates ID number and upload a clear photo of the purchase receipt which shows the date and the Al Ain Farms product.',
-  'terms4': '4. Participants have to register only through the online link which is validated through scanning of the QR code on the product.',
-  'terms5': '5. The last date for submission is 20th September 2023. Winners will be announced on 10th of October 2023 on the Al Ain Farms social media and individually contacted for prize collection.',
-  'terms6': '6. Selection of winners will be at the sole discretion of Al Ain Farms management and all decisions will be final and binding.'
+  'terms2': 'To enter the promotion, participants have to purchase Al Ain Farms Fresh Milk, Yoghurt, Laban, Juice, Chicken or Eggs that have promotional QR code on them.',
+  'terms3': 'On the landing page, participants have to enter their name, email, mobile number, Emirate, Emirates ID number and upload a clear photo of the purchase receipt which shows the date and the Al Ain Farms product.',
+  'terms4': 'Participants have to register only through the online link which is validated through scanning of the QR code on the product.',
+  'terms5': 'The last date for submission is 20th September 2023. Winners will be announced on 10th of October 2023 on the Al Ain Farms social media and individually contacted for prize collection.',
+  'terms6': 'Selection of winners will be at the sole discretion of Al Ain Farms management and all decisions will be final and binding.'
 };
 export default translations;
