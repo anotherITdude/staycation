@@ -26,6 +26,8 @@ module.exports = {
       "DINCondensed-Bold": ["DINCondensed-Bold"],
       "DIN-Bold": ["DIN-Bold"],
       "DIN-Demi": ["DIN-Demi"],
+      "DIN-Regular": ["DIN-Regular"],
+      "DINCondensed-Regular": ["DINCondensed-Regular"],
       // "gotham-black-italic": ["gotham-black-italic"],
       // "neosans-bold": ["neosans-bold"],
       // "neosans-medium": ["neosans-medium"],

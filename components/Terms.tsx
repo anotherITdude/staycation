@@ -31,7 +31,7 @@ const Terms = () => {
             className={`list-decimal mt-4 
           ${
             locale === "/"
-              ? "font-DIN-Demi text-sm md:text-lg pl-4"
+              ? "font-DIN-Regular text-sm md:text-lg pl-4"
               : "font-HelveticaNeueLTArabic-Roman text-sm md:text-lg pr-4"
           }
           `}

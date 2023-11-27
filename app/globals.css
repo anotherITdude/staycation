@@ -1,8 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
 
+@font-face {
+  font-family: "DIN-Regular";
+  src: url("../Fonts/DIN2014-Regular.ttf");
+}
+@font-face {
+  font-family: "DINCondensed-Regular";
+  src: url("../Fonts/DINCondensed-Regular.ttf");
+}
 @font-face {
   font-family: "DINCondensed-Bold";
   src: url("../Fonts/D-DINCondensed-Bold_0.otf");
@@ -40,6 +47,10 @@
 
 @layer components {
 
+  .staycation {
+    background-image: url(./../public/staycation_bg.png);
+  }
+
    .howtoenter {
     background-image: url(./../public/howtoenter_bg.svg);
   }
@@ -56,7 +67,7 @@
     @apply w-8 h-8 pl-3 pt-[7px] bg-webBlue text-webWhite rounded-full
   }
   .pointers_ar{
-    @apply pr-3 mr-4
+    @apply pr-3 mr-4 
   }
   .pointers_main {
     @apply flex flex-row justify-center w-[90%] md:w-[80%] gap-x-3

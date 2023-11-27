@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import HowToEnter from "@/components/HowToEnter";
 import Navbar from "@/components/Navbar";
 import RegisterSection from "@/components/RegisterSection";
+import Staycation from "@/components/Staycation";
 import Terms from "@/components/Terms";
  
 export default function Home() {
@@ -11,7 +12,7 @@ export default function Home() {
       <Navbar />
       <Hero title="AAF Staycation En" />
       <Hero title="Section 2" />
-      <Hero title="Section 3" />
+      <Staycation/>
       <HowToEnter />
       <RegisterSection />
       <Terms />

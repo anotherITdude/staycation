@@ -62,15 +62,15 @@ const HowToEnter = () => {
                 className={`
                 ${
                   locale === "/"
-                    ? "font-DIN-Bold text-5xl md:text-5xl pl-0"
+                    ? "font-DIN-Regular text-5xl md:text-6xl md:pl-10"
                     : "font-DINArabic-Black text-5xl md:text-6xl pr-4"
                 }`}
               >
                 {t.How_to_enter}
               </div>
               <div
-                className={`mt-8 flex flex-col gap-6 gap-y-6  text-sm
-              ${locale === "/" ? "font-DIN-Demi" : "font-DINArabic-Black"}
+                className={`mt-8 flex flex-col gap-6 gap-y-6  
+              ${locale === "/" ? "font-DIN-Regular text-base" : "font-HelveticaNeueLTArabic-Roman text-sm"}
               `}
               >
                 <div className="pointers_main">
