@@ -51,8 +51,8 @@ const Hero = () => {
   return (
     <div
       className="hero
-    bg-right bg-cover bg-no-repeat
-    h-[820px]
+    bg-cover bg-no-repeat
+    h-[800px]
     md:bg-cover md:h-full
     flex flex-col overflow-hidden"
     >
@@ -71,7 +71,7 @@ const Hero = () => {
         >
           <motion.div
             {...motionSettingsleft2right}
-            className={` w-full md:w-[500px] mt-16 md:mt-0 
+            className={` w-[80%] md:w-[500px] mt-16 md:mt-0 
             ${locale === "/" ? " md:mr-6" : " md:ml-2"}
             `}
           >
