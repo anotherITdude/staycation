@@ -47,7 +47,11 @@ const Input: React.FC<InputProps> = ({
           w-full
           pb-3
           pt-6 
-          font-DINCondensed-Bold
+          ${
+            locale === "/"
+              ? "font-DIN-Regular"
+              : "font-helvetica-neue-lt-arabic-75-bol"
+          }
           text-sm
           bg-white 
           border-b-2
@@ -74,7 +78,7 @@ const Input: React.FC<InputProps> = ({
           -translate-y-3 
           ${
             locale === "/"
-              ? "font-DINCondensed-Bold"
+              ? "font-DIN-Regular"
               : "font-helvetica-neue-lt-arabic-75-bol"
           }
           tracking-widest
