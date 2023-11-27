@@ -48,7 +48,7 @@ const RegisterSection: React.FC<RegisterSectionInterface> = ({ title }) => {
     
           </div>
         </div>
-        <div className="flex w-full bg-white  justify-center min-h-[400px]">
+        <div className="flex w-full bg-webWhite  justify-center min-h-[400px]">
           <RegistrationForm />
         </div>
       </div>

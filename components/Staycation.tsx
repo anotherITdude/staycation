@@ -6,29 +6,27 @@ import ar from "../locales/ar";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 
-
 const Staycation = () => {
   const locale = usePathname();
   const t = locale === "/" ? en : ar;
-  
+
   const motionSettingsh2 = {
     initial: { opacity: 0, y: -15 },
     whileInView: { opacity: 1, y: 0 },
     transition: { duration: 1 },
   };
 
-   const motionSettingsh2_back = {
-     initial: { opacity: 0, y: 15 },
-     whileInView: { opacity: 1, y: 0 },
-     transition: { duration: 1 },
-   };
-  
+  const motionSettingsh2_back = {
+    initial: { opacity: 0, y: 15 },
+    whileInView: { opacity: 1, y: 0 },
+    transition: { duration: 1 },
+  };
+
   const motionSettingsOpacity = {
     initial: { opacity: 0 },
     whileInView: { opacity: 1 },
     transition: { duration: 2 },
   };
-
 
   return (
     <div
@@ -58,7 +56,7 @@ const Staycation = () => {
             </div>
           </motion.div>
           {/* bottom */}
-          <div className="flex gap-x-2">
+          <div className="flex gap-x-2 font-extralight">
             <motion.div
               {...motionSettingsh2_back}
               className={`text-webRed ${
@@ -69,7 +67,10 @@ const Staycation = () => {
             >
               10
             </motion.div>
-            <motion.div  {...motionSettingsh2} className="flex flex-col justify-center pt-10 ">
+            <motion.div
+              {...motionSettingsh2}
+              className="flex flex-col justify-center pt-10 "
+            >
               <div
                 className={`  text-webWhite ${
                   locale === "/"
@@ -91,7 +92,8 @@ const Staycation = () => {
             </motion.div>
           </div>
 
-          <motion.div {...motionSettingsOpacity}
+          <motion.div
+            {...motionSettingsOpacity}
             className={` md:w-[45%] mt-2 text-webWhite ${
               locale === "/"
                 ? "font-DIN text-lg pl-4"

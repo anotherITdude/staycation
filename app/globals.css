@@ -46,6 +46,11 @@
   font-family: "HelveticaNeueLTArabic-Roman";
   src: url("../Fonts/HelveticaNeueLTArabic-Roman.ttf");
 }
+
+@font-face {
+  font-family: "Gotham-Medium";
+  src: url("../Fonts/Gotham-Medium_5.otf");
+}
  
 @layer base {
   * {
@@ -57,6 +62,10 @@
 }
 
 @layer components {
+
+  .hero{
+    background-image: url(./../public/hero_bg.png);
+  }
   .nationalday_left{
     background-image: url(./../public/nationalday_left.png);
   }

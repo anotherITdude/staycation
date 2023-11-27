@@ -10,8 +10,7 @@ import Terms from "@/components/Terms";
 export default function Home() {
   return (
     <Container>
-      <Navbar />
-      <Hero title="AAF Staycation AR" />
+      <Hero />
       <NationalDay />
       <Staycation />
       <HowToEnter />

@@ -9,7 +9,7 @@ const Terms = () => {
   const locale = usePathname();
   const t = locale === "/" ? en : ar;
   return (
-    <div
+    <div id='terms'
       className="text-webWhite"
       style={{ background: "#3F4040", height: "auto" }}
     >
