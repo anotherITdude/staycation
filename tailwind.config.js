@@ -20,7 +20,9 @@ module.exports = {
       webWhite: "#ffffff",
       webRed: "#E2211C",
       webGray: "#3F4040",
-      webLiteGray: "#717171"
+      webLiteGray: "#717171",
+      webGreen: "#00833C",
+      webBlack: "#000000"
     },
     fontFamily: {
       "DINCondensed-Bold": ["DINCondensed-Bold"],
