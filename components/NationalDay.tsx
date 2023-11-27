@@ -91,7 +91,9 @@ const NationalDay: React.FC<NationalDayInterface> = ({ title }) => {
 
               <div className="flex flex-row justify-between items-center">
                 <motion.div {...motionSettingsOpacity}>
-                  <Button arrow outline small label={t.register_now} />
+                  <a href="#register">
+                    <Button arrow outline small label={t.register_now} />
+                    </a>
                 </motion.div>
                 <motion.div
                   {...motionSettingsOpacity}

@@ -81,7 +81,7 @@
     -top-3
   }
   .pointers{
-    @apply w-8 h-8 pl-3 pt-[7px] bg-webBlue text-webWhite rounded-full
+    @apply w-8 h-8 pl-3 pt-[5px] bg-webBlue text-webWhite rounded-full
   }
   .pointers_ar{
     @apply pr-3 mr-4 
