@@ -57,7 +57,9 @@
 }
 
 @layer components {
-
+  .nationalday_left{
+    background-image: url(./../public/nationalday_left.png);
+  }
   .staycation {
     background-image: url(./../public/staycation_bg.png);
   }

@@ -1,32 +1,32 @@
 const translations = {
   //Hero section
-  'promition': 'PROMOTION VALID FROM 29th NOV TO 9th DEC 2023',
-  'terms_and_conditions': '*Terms & Conditions Apply',
-  //Happy UAE day section
-  'happy': 'HAPPY',
-  'uae': 'UAE',
-  'national_day': 'NATIONAL DAY',
-  'register_now': 'Register Now',
-  'paragraph1': "Celebrate UAE National Day at Carrefour with Al Ain Farms as we bring to you a blend of celebrations with your favorite products. As you shop, savor the joy of the season, don't miss the chance to score big - with every purchase, you could win a fabulous staycation!",
-  'paragraph2': "Shop, savor, and seize the moment at Carrefour!",
-  'exclusive': 'EXCLUSIVELY AT',
-  //Stacation section
-  'win': 'WIN',
-  'family_weekend': 'FAMILY WEEKEND',
-  'staycation': 'STAYCATIONS',
-  'staycation_info': "Seize the moment - shop, save, and make memories with Carrefour! Shop your Al Ain Farm favourites at your closest Carrefour and be our lucky winner of an unforgettable getaway!",
-  //How to enter section
+  'promition': 'العرض صالح من 29 نوفمبر إلى 9 ديسمبر 2023',
+  'terms_and_conditions': '*البنود و تطبق الشروط',
+  'happy': 'سعيد',
+  'uae': 'الإمارات',
+  'national_day': 'اليوم الوطني',
+  'register_now': 'سجل الآن',
+  'paragraph1': "احتفل باليوم الوطني لدولة الإمارات في كارفور مع مزارع العين حيث نقدم لك مزيجًا من الاحتفالات مع منتجاتك المفضلة. أثناء التسوق، استمتع بفرحة الموسم، ولا تفوت الفرصة للفوز بجوائز كبيرة - مع كل عملية شراء، يمكنك الفوز بإقامة رائعة!",
+  'paragraph2': "تسوق، واستمتع، واستفد من اللحظة في كارفور!",
+  'exclusive': 'حصريا في',
+  // Stacation section
+  'win': 'اربح',
+  'family_weekend': 'عطلة نهاية الأسبوع مع العائلة',
+  'staycation': 'عطلات في الإمارات',
+  'staycation_info': "استغل اللحظة - تسوق، ووفّر، وصنع ذكريات مع كارفور! تسوق منتجات مزارع العين المفضلة لديك في أقرب فرع من كارفور وكن فائزًا محظوظًا برحلة لا تُنسى!",
+  // How to enter section
   'How_to_enter': 'كيفية المشاركة',
-  'step_1': '1',
-  'step_2': '2',
-  'step_3': '3',
-  'step_4': '4',
-  'step_1_content': 'PURCHASE AL AIN FARMS FRESH MILK, YOGHURT, LABAN, JUICE, CHICKEN OR EGGS THAT HAVE PROMOTIONAL QR CODE ON THEM.',
-  'step_2_content': 'SCAN THE QR CODE USING YOUR SMARTPHONE OR TABLET.',
-  'step_3_content': 'REGISTER ON THE MICROSITE AFTER SCANNING THE QR CODE & UPLOAD THE PURCHASE RECEIPT.',
-  'step_4_content': 'SUBMIT YOUR ENTRY TO ENTER THE DRAW.',
-  //Register Section
-  'registration': 'تسجيل',
+  'step_1': 'الخطوة 1',
+  'step_2': 'الخطوة 2',
+  'step_3': 'الخطوة 3',
+  'step_4': 'الخطوة 4',
+  'step_1_content': 'قم بشراء دجاج مزارع العين الطازج، أو الحليب الطازج، أو الحليب طويل الأجل، أو العصير، أو البيض الطازج، أو الروب الطازج الذي يحتوي على رمز الاستجابة السريعة الترويجي (QR).',
+  'step_2_content': 'امسح رمز الاستجابة السريعة (QR) باستخدام الهاتف الذكي أو الجهاز اللوحي.',
+  'step_3_content': 'سجل في الموقع الإلكتروني بعد مسح رمز الاستجابة السريعة (QR) وقم بتحميل فاتورة الشراء.',
+  'step_4_content': 'أرسل فاتورة الشراء للمشاركة في السحب.',
+  'disclaimer': 'العرض الترويجي ساري على منتجات مختارة من مزارع العين. تشمل هذه المنتجات: دجاج مزارع العين الطازج، أو الحليب الطازج، أو الحليب طويل الأجل، أو العصير، أو البيض الطازج، أو الروب الطازج. توجه إلى اللولو هايبر ماركت للمشاركة في العرض الترويجي!',
+  // Register Section
+  'registration': 'التسجيل',
   'name': 'الاسم',
   'name_error': 'الاسم مطلوب',
   'mobile': 'رقم الهاتف المتحرك',
@@ -37,7 +37,7 @@ const translations = {
   'email_error2': 'بريد إلكتروني غير صالح',
   'emirate': 'اسم الإمارة',
   'emirate_error': 'الإمارة مطلوبة',
-  'emirate_id_number': 'رقم بطاقة الهوية الإماراتية ',
+  'emirate_id_number': 'رقم بطاقة الهوية الإماراتية',
   'emirate_id_number_error': 'الحد الأدنى 15 رقمًا مسموح به',
   'upload_purchase_receipt': 'تحميل فاتورة الشراء',
   'upload_purchase_receipt_error1': 'الإيصال مطلوب',
@@ -48,13 +48,13 @@ const translations = {
   'upload_successfull': 'تم التحميل بنجاح!',
   'submission_completed': 'اكتملت عملية التقديم الخاصة بك...',
   'upload_error_message': 'حدث خطأ ما. يرجى المحاولة مرة أخرى',
-  //Terms and conditions
-  'terms_heading': '*الشروط والأحكام',
-  'terms1': 'The competition is open only to UAE residents above 18 years of age with a valid Emirates ID.',
-  'terms2': 'To enter the promotion, participants have to purchase Al Ain Farms Fresh Milk, Yoghurt, Laban, Juice, Chicken or Eggs that have promotional QR code on them.',
-  'terms3': 'On the landing page, participants have to enter their name, email, mobile number, Emirate, Emirates ID number and upload a clear photo of the purchase receipt which shows the date and the Al Ain Farms product.',
-  'terms4': 'Participants have to register only through the online link which is validated through scanning of the QR code on the product.',
-  'terms5': 'The last date for submission is 20th September 2023. Winners will be announced on 10th of October 2023 on the Al Ain Farms social media and individually contacted for prize collection.',
-  'terms6': 'Selection of winners will be at the sole discretion of Al Ain Farms management and all decisions will be final and binding.'
+  // Terms and conditions
+  'terms_heading': '*البنود و تطبق الشروط',
+  'terms1': 'المسابقة مفتوحة فقط للمقيمين في الإمارات الذين تتجاوز أعمارهم 18 عامًا ولديهم بطاقة هوية إماراتية صالحة.',
+  'terms2': 'للدخول في الترويج، يجب على المشاركين شراء حليب العين المبستر، والزبادي، واللبن، وعصير، ودجاج، أو بيض يحملون رمز الاعلان الترويجي.',
+  'terms3': 'على صفحة الهبوط، يجب على المشاركين إدخال اسمهم، وعنوان البريد الإلكتروني، ورقم الهاتف المحمول، واسم الإمارة، ورقم بطاقة الهوية الإماراتية وتحميل صورة واضحة لإيصال الشراء الذي يظهر فيه التاريخ ومنتج مزارع العين.',
+  'terms4': 'يجب على المشاركين التسجيل فقط من خلال الرابط عبر الإنترنت الذي يتم التحقق منه من خلال مسح رمز الاعلان الترويجي على المنتج.',
+  'terms5': 'آخر موعد للتقديم هو 9 ديسمبر 2023. سيتم الإعلان عن الفائزين في 25 ديسمبر 2023 على وسائل التواصل الاجتماعي لمزارع العين وسيتم الاتصال بهم بشكل فردي لاستلام الجوائز.',
+  'terms6': 'سيتم اختيار الفائزين بمسؤولية فقط من قبل إدارة مزارع العين وسيكون كل قرار نهائي وملزم.'
 };
 export default translations;

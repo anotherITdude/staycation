@@ -1,6 +1,7 @@
 import Container from "@/components/Container";
 import Hero from "@/components/Hero";
 import HowToEnter from "@/components/HowToEnter";
+import NationalDay from "@/components/NationalDay";
 import Navbar from "@/components/Navbar";
 import RegisterSection from "@/components/RegisterSection";
 import Staycation from "@/components/Staycation";
@@ -11,7 +12,8 @@ export default function Home() {
     <Container>
       <Navbar />
       <Hero title="AAF Staycation En" />
-      <Hero title="Section 2" />
+      
+      <NationalDay />
       <Staycation/>
       <HowToEnter />
       <RegisterSection />

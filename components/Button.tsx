@@ -76,10 +76,10 @@ const Button: React.FC<ButtonProps> = ({
     ${outline ? "bg-white" : "bg-webBlue pt-2 pb-2"}
     ${outline ? "border-black" : "border-webBlue"}
     ${outline ? "text-webBlue" : "text-webWhite"}
-    ${small ? " py-3" : "py-1"}
+    ${small ? " py-2" : "py-1"}
     ${small ? "text-sm text-webBlue" : "text-sm"}
     ${small ? "font-light" : "font-semibold"}
-    ${small ? "border-[0.8px]" : "border-2"}
+    ${small ? "border-[0.8px]" : "border-[1px]"}
     `}
     >
       <span className="flex justify-evenly items-center">
