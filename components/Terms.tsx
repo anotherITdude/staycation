@@ -10,6 +10,7 @@ const Terms = () => {
   const t = locale === "/" ? en : ar;
   return (
     <div
+      id="terms"
       className="text-webWhite"
       style={{ background: "#3F4040", height: "auto" }}
     >

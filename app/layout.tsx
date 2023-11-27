@@ -19,7 +19,7 @@ export default function RootLayout({
       <link rel="icon" href="../public/favicon.png" />
       <body
         suppressHydrationWarning={true}
-        className={`bg-gray-400 ${inter.className}`}
+        className={`bg-webLiteGray ${inter.className}`}
       >
         {children}
       </body>

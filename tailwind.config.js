@@ -20,7 +20,7 @@ module.exports = {
       webWhite: "#ffffff",
       webRed: "#E2211C",
       webGray: "#3F4040",
-      webLiteGray: "#717171",
+      webLiteGray: "#c8c8c8",
       webGreen: "#00833C",
       webBlack: "#000000"
     },
@@ -32,6 +32,7 @@ module.exports = {
       "DIN-Demi": ["DIN-Demi"],
       "DIN-Regular": ["DIN-Regular"],
       "DINCondensed-Regular": ["DINCondensed-Regular"],
+      "Gotham-Medium" :["Gotham-Medium"],
       // "gotham-black-italic": ["gotham-black-italic"],
       // "neosans-bold": ["neosans-bold"],
       // "neosans-medium": ["neosans-medium"],

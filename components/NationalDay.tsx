@@ -36,7 +36,7 @@ const NationalDay: React.FC<NationalDayInterface> = ({ title }) => {
 
   return (
     <div>
-      <div className="flex flex-col md:flex-row justify-center items-center">
+      <div className="flex flex-col md:flex-row justify-center items-center bg-webWhite">
         <div
           className="w-full bg-red-200 text-center justify-center items-center
         hidden md:flex"
@@ -49,7 +49,7 @@ const NationalDay: React.FC<NationalDayInterface> = ({ title }) => {
             {" "}
           </div>
         </div>
-        <div className="flex w-full bg-white">
+        <div className="flex w-full bg-webWhite">
           <Section>
             <div className="flex flex-col gap-y-4 p-6">
               <div>

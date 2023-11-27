@@ -94,7 +94,7 @@ const RegistrationForm = () => {
       id="register"
       className="w-[90%] md:w-[70%]
     pb-14 pt-10 md:pt-0 md:pb-0
-    md:mt-[9%]  justify-center items-center "
+    md:mt-[9%]  justify-center items-center  "
     >
       <div className="">
         <div className="right">
