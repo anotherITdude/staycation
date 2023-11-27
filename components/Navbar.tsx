@@ -1,4 +1,4 @@
-'use client' 
+"use client";
 
 import Link from "next/link";
 import React from "react";
@@ -11,18 +11,22 @@ import { usePathname } from "next/navigation";
 const Navbar = () => {
   const locale = usePathname();
   const locales = ["en", "ar"]; // Add other supported locales here
-  const finalLogo = locale === '/' ? logo_eng : logo_ar
+  const finalLogo = locale === "/" ? logo_eng : logo_ar;
   return (
-    <motion.nav className={`flex justify-between  -mb-00 z-50 relative
-    ${locale === '/' ? ' pl-6 md:pl-16' : 'pr-6 md:pr-16'}
-    `}>
+    <motion.nav
+      className={`flex justify-between  -mb-00 z-50 relative
+    ${locale === "/" ? " pl-6 md:pl-16" : "pr-6 md:pr-16"}
+    `}
+    >
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
         className="font-neosans-medium uppercase flex justify-center items-center gap-[3px]"
       >
-        <div className={`${locale === "/ar" ? "md:pr-4 mt-10" : "md:pl-4 mt-10"}`}>
+        <div
+          className={`${locale === "/ar" ? "md:pr-4 mt-10" : "md:pl-4 mt-10"}`}
+        >
           {locales.map((lang, index) => (
             <React.Fragment key={lang}>
               <Link
@@ -36,7 +40,9 @@ const Navbar = () => {
                 {lang === "ar" ? "Ar" : "En"}
               </Link>
               {index !== locales.length - 1 && (
-                <span className="font-DIN-Bold pr-1 pl-1 text-md ">&#x2022;</span>
+                <span className="font-DIN-Bold pr-1 pl-1 text-md ">
+                  &#x2022;
+                </span>
               )}
             </React.Fragment>
           ))}
