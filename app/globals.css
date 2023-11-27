@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+  font-family: "DIN";
+  src: url("../Fonts/D-DIN.ttf");
+}
+
+@font-face {
+  font-family: "DIN-Black";
+  src: url("../Fonts/DIN\ Black.ttf");
+}
+
 @font-face {
   font-family: "DIN-Regular";
   src: url("../Fonts/DIN2014-Regular.ttf");
@@ -16,7 +27,7 @@
 }
 @font-face {
   font-family: "DIN-Bold";
-  src: url("../Fonts/DIN\ Bold.otf");
+  src: url("../Fonts/D-DIN-Bold.ttf");
 }
 @font-face {
   font-family: "DIN-Demi";
@@ -49,6 +60,10 @@
 
   .staycation {
     background-image: url(./../public/staycation_bg.png);
+  }
+
+  .staycation_ar {
+    background-image: url(./../public/staycation_bg_ar.png);
   }
 
    .howtoenter {

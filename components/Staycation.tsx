@@ -1,21 +1,109 @@
-import React from 'react'
-import Section from './Section'
+"use client";
+import React from "react";
+import Section from "./Section";
+import en from "../locales/en";
+import ar from "../locales/ar";
+import { usePathname } from "next/navigation";
+import { motion } from "framer-motion";
+
 
 const Staycation = () => {
+  const locale = usePathname();
+  const t = locale === "/" ? en : ar;
+  
+  const motionSettingsh2 = {
+    initial: { opacity: 0, y: -15 },
+    whileInView: { opacity: 1, y: 0 },
+    transition: { duration: 1 },
+  };
+
+   const motionSettingsh2_back = {
+     initial: { opacity: 0, y: 15 },
+     whileInView: { opacity: 1, y: 0 },
+     transition: { duration: 1 },
+   };
+  
+  const motionSettingsOpacity = {
+    initial: { opacity: 0 },
+    whileInView: { opacity: 1 },
+    transition: { duration: 2 },
+  };
+
+
   return (
     <div
-      className="staycation
-     h-[619px] bg-cover
-    md:bg-cover md:h-full
-    flex flex-col overflow-hidden"
+      className={`
+     h-full bg-cover 
+    md:bg-cover md:h-[539px]
+    flex flex-col overflow-hidden
+    ${locale === "/" ? "staycation bg-left-top" : "staycation_ar bg-right-top"}
+    `}
     >
       <Section>
-        <div>
+        <div
+          className={`pt-[2.5%] ${
+            locale === "/" ? "md:pl-[7%]" : "md:pr-[7%]"
+          }`}
+        >
+          {/* //top */}
+          <motion.div {...motionSettingsh2} className="flex ">
+            <div
+              className={`-mb-4 text-webWhite ${
+                locale === "/"
+                  ? "font-DIN-Bold text-6xl "
+                  : "font-DINArabic-Black text-6xl"
+              }`}
+            >
+              {t.win}
+            </div>
+          </motion.div>
+          {/* bottom */}
+          <div className="flex gap-x-2">
+            <motion.div
+              {...motionSettingsh2_back}
+              className={`text-webRed ${
+                locale === "/"
+                  ? "font-DIN-Bold text-9xl"
+                  : "font-DIN-Bold  text-9xl"
+              }`}
+            >
+              10
+            </motion.div>
+            <motion.div  {...motionSettingsh2} className="flex flex-col justify-end ">
+              <div
+                className={` -mb-1 text-webWhite ${
+                  locale === "/"
+                    ? "font-DIN-Bold text-2xl md:text-3xl "
+                    : "font-DINArabic-Black text-2xl md:text-3xl"
+                }`}
+              >
+                {t.family_weekend}
+              </div>
+              <div
+                className={`text-webWhite ${
+                  locale === "/"
+                    ? "font-DIN-Bold text-4xl md:text-6xl "
+                    : "font-DINArabic-Black text-4xl md:text-6xl"
+                }`}
+              >
+                {t.staycation}
+              </div>
+            </motion.div>
+          </div>
 
+          <motion.div {...motionSettingsOpacity}
+            className={` md:w-[45%] mt-2 text-webWhite ${
+              locale === "/"
+                ? "font-DIN text-lg pl-4"
+                : "font-HelveticaNeueLTArabic-Roman text-lg pr-4"
+            }`}
+          >
+            {t.staycation_info}
+          </motion.div>
         </div>
       </Section>
     </div>
   );
-}
+};
 
-export default Staycation
+export default Staycation;
