@@ -25,6 +25,8 @@ module.exports = {
     fontFamily: {
       "DINCondensed-Bold": ["DINCondensed-Bold"],
       "DIN-Bold": ["DIN-Bold"],
+      "DIN-Black": ["DIN-Black"],
+      "DIN": ["DIN"],
       "DIN-Demi": ["DIN-Demi"],
       "DIN-Regular": ["DIN-Regular"],
       "DINCondensed-Regular": ["DINCondensed-Regular"],
