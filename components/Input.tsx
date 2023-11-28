@@ -96,7 +96,7 @@ const Input: React.FC<InputProps> = ({
         `}
       >
         {errors[id] ? (
-          <span className="uppercase text-sm">{errors[id]?.message}</span>
+          <span className="uppercase text-xs md:text-sm">{errors[id]?.message}</span>
         ) : (
           label
         )}

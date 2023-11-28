@@ -95,6 +95,11 @@ const HeroAr = () => {
             ${locale === "/" ? " md:mr-18" : " md:mr-2"}
             `}
           >
+            {" "}
+            $
+            {locale === "/"
+              ? "font-DIN-Bold text-xs  "
+              : "font-HelveticaNeueLTArabic-Roman text-xs"}
             <Image alt="how to enter" src={hero_right} />
           </motion.div>
           <motion.div

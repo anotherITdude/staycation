@@ -55,10 +55,10 @@ const NationalDay: React.FC<NationalDayInterface> = ({ title }) => {
               <div>
                 <motion.div
                   {...motionSettingsleft2right}
-                  className={`flex ${
+                  className={`flex flex-col ${
                     locale === "/"
-                      ? "font-DIN-Bold text-5xl md:text-6xl gap-x-2"
-                      : "font-DINArabic-Black text-5xl md:text-6xl mb-2"
+                      ? "font-DIN-Bold text-5xl md:text-6xl gap-y-2"
+                      : "font-DINArabic-Black text-3xl md:text-4xl mb-2 gap-y-2"
                   }`}
                 >
                   <div className="text-webRed">{t.happy}</div>
@@ -70,7 +70,7 @@ const NationalDay: React.FC<NationalDayInterface> = ({ title }) => {
                   className={`flex mb-2 ${
                     locale === "/"
                       ? "font-DIN-Bold text-5xl md:text-6xl"
-                      : "font-DINArabic-Black text-5xl md:text-6xl"
+                      : "font-DINArabic-Black text-3xl md:text-4xl"
                   }`}
                 >
                   <div className="text-webBlack">{t.national_day}</div>
@@ -82,7 +82,7 @@ const NationalDay: React.FC<NationalDayInterface> = ({ title }) => {
                 className={` flex flex-col gap-y-3 mb-2 text-webBlue ${
                   locale === "/"
                     ? "font-DIN font-thin text-lg"
-                    : "font-HelveticaNeueLTArabic-Roman font-thin mt-2 text-xl md:text-2xl"
+                    : "font-HelveticaNeueLTArabic-Roman mt-2 text-lg md:text-md"
                 }`}
               >
                 <p>{t.paragraph1}</p>

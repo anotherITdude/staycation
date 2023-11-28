@@ -43,7 +43,7 @@ const RegistrationForm = () => {
       emirate: "",
       eid: "",
       receipt: "",
-      lan: "en",
+      lan: locale === "/" ? 'en' : 'ar',
       selected: false,
       info: " ",
     },
