@@ -21,7 +21,7 @@ export type FormValues = {
 export const schema = (t: any) =>
   yup.object().shape({
     name: yup.string().required(t.name_error),
-    mobile: yup.string().required(t.mobile_error1).min(10, t.mobile_error2),
+    mobile: yup.string().required(t.mobile_error1).matches(/^\d+$/, t.mobile_error2).min(10, t.mobile_error2),
     email: yup.string().required(t.email_error1).email(t.email_error2),
     emirate: yup.string().required(t.emirate_error),
     eid: yup

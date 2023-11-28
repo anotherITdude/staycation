@@ -96,7 +96,7 @@ const Staycation = () => {
             {...motionSettingsOpacity}
             className={` md:w-[45%] mt-0 text-webWhite ${
               locale === "/"
-                ? "font-DIN text-lg pl-4"
+                ? "font-DIN text-[17px] pl-4"
                 : "font-HelveticaNeueLTArabic-Roman text-lg pr-4 "
             }`}
           >
