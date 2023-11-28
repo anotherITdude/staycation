@@ -53,14 +53,14 @@ const HeroAr = () => {
     <div
       className="hero
     bg-cover bg-no-repeat
-    h-[800px]
+    h-[750px]
     md:bg-cover md:h-full
     flex flex-col overflow-hidden"
     >
       <Navbar />
 
       <div
-        className="flex flex-col  md:flex-row justify-between items-center
+        className="flex flex-col justify-center   md:flex-row md:justify-between items-center
         pl-4 pr-4 -mb-10
         "
       >
@@ -73,7 +73,7 @@ const HeroAr = () => {
           <motion.div
             {...motionSettingsleft2right}
             className={` w-[80%] md:w-[500px] mt-16 md:mt-0 
-            ${locale === "/" ? " md:mr-6" : " md:ml-2"}
+            ${locale === "/" ? " -mb-16 md:mb-0 md:mr-6" : " -mb-16 md:mb-0 ml-5 md:ml-2"}
             `}
           >
             {" "}
@@ -92,7 +92,7 @@ const HeroAr = () => {
           <motion.div
             {...motionSettingsright2left}
             className={`w-[300px] md:w-[400px] mt-6 md:mt-0 
-            ${locale === "/" ? " md:mr-18" : " md:mr-2"}
+            ${locale === "/" ? " md:mr-18" : " ml-0 md:mr-2"}
             `}
           >
             <Image alt="how to enter" src={hero_right} />

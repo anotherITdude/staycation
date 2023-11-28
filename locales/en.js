@@ -38,7 +38,7 @@ const translations = {
   'emirate': 'Emirate',
   'emirate_error': 'Emirate is required',
   'emirate_id_number': 'Emirate ID Number',
-  'emirate_id_number_error': 'EID must be numeric and at least 15 digits',
+  'emirate_id_number_error': 'EID must be at least 15 digits',
   'upload_purchase_receipt': 'Upload purchase receipt',
   'upload_purchase_receipt_error1': 'Receipt is required',
   'upload_purchase_receipt_error2': 'Please upload your receipt. Max 2MB',

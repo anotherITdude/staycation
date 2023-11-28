@@ -93,7 +93,7 @@ const RegistrationForm = () => {
     <div
       id="register"
       className="w-[90%] md:w-[70%]
-    pb-14 pt-10 md:pt-0 md:pb-0
+    pb-14 pt-10 md:pt-0 md:pb-[10px]
     md:mt-[9%]  justify-center items-center  "
     >
       <div className="">
@@ -128,7 +128,7 @@ const RegistrationForm = () => {
                 disabled={isLoading}
                 register={register}
                 errors={errors}
-                type="number"
+                type="text"
               />
             </div>
             <div className="form-field">
@@ -158,7 +158,7 @@ const RegistrationForm = () => {
                 disabled={isLoading}
                 register={register}
                 errors={errors}
-                type="number"
+                type="text"
               />
             </div>
             <div className="form-field">
