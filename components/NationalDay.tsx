@@ -111,7 +111,9 @@ const NationalDay: React.FC<NationalDayInterface> = ({ title }) => {
                   >
                     {t.exclusive}
                   </div>
-                  <Image width={170} alt="carrefour" src={logo} />
+                  <div className="w-[130px] md:w-[170px]">
+                    <Image alt="carrefour" src={logo} />
+                    </div>
                 </motion.div>
               </div>
             </div>
