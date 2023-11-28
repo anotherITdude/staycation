@@ -2,6 +2,7 @@
 import React from "react";
 import Section from "./Section";
 import howto_right from "./../public/howtoenter.png";
+import howto_right_ar from "./../public/howtoenter_ar.png";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
@@ -130,7 +131,11 @@ const HowToEnter = () => {
             ${locale === "/" ? "mr-6" : "ml-2"}
             `}
           >
-            <Image alt="how to enter" src={howto_right} />
+             {locale === "/" ?
+              <Image alt="how to enter" src={howto_right} />
+              :
+              <Image alt="how to enter" src={howto_right_ar} />
+            }
           </motion.div>
         </div>
       </Section>
