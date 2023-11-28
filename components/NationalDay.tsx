@@ -82,7 +82,7 @@ const NationalDay: React.FC<NationalDayInterface> = ({ title }) => {
                 className={` flex flex-col gap-y-3 mb-2 text-webBlue ${
                   locale === "/"
                     ? "font-DIN font-thin text-lg"
-                    : "font-HelveticaNeueLTArabic-Roman font-thin mt-2 text-xl md:text-2xl"
+                    : "font-HelveticaNeueLTArabic-Roman mt-2 text-lg md:text-md"
                 }`}
               >
                 <p>{t.paragraph1}</p>
