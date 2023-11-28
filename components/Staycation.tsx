@@ -44,12 +44,12 @@ const Staycation = () => {
           }`}
         >
           {/* //top */}
-          <motion.div {...motionSettingsh2} className="flex ">
+          <motion.div {...motionSettingsh2} className="flex  ">
             <div
               className={` text-webWhite ${
                 locale === "/"
-                  ? "font-DIN-Bold text-6xl -mb-4"
-                  : "font-DINArabic-Black text-6xl"
+                  ? "font-DIN-Bold text-6xl -mb-4 pt-6"
+                  : "font-DINArabic-Black text-6xl pt-2 md:pt-6"
               }`}
             >
               {t.win}
@@ -69,13 +69,13 @@ const Staycation = () => {
             </motion.div>
             <motion.div
               {...motionSettingsh2}
-              className="flex flex-col justify-center pt-10 "
+              className="flex flex-col justify-center "
             >
               <div
                 className={`  text-webWhite ${
                   locale === "/"
-                    ? "font-DIN-Bold text-2xl md:text-3xl -mb-1 "
-                    : "font-DINArabic-Black text-xl md:text-3xl"
+                    ? "font-DIN-Bold text-2xl md:text-3xl -mb-1 pt-6 md:pt-2 "
+                    : "font-DINArabic-Black text-xl md:text-3xl pt-6 "
                 }`}
               >
                 {t.family_weekend}
@@ -94,10 +94,10 @@ const Staycation = () => {
 
           <motion.div
             {...motionSettingsOpacity}
-            className={` md:w-[45%] mt-2 text-webWhite ${
+            className={` md:w-[45%] mt-0 text-webWhite ${
               locale === "/"
                 ? "font-DIN text-lg pl-4"
-                : "font-HelveticaNeueLTArabic-Roman text-lg pr-4"
+                : "font-HelveticaNeueLTArabic-Roman text-lg pr-4 "
             }`}
           >
             {t.staycation_info}

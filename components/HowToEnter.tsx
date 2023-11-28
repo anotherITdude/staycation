@@ -63,8 +63,8 @@ const HowToEnter = () => {
                 className={`
                 ${
                   locale === "/"
-                    ? "font-DIN-Regular text-5xl md:text-6xl md:pl-10"
-                    : "font-DINArabic-Black text-5xl md:text-6xl pr-4"
+                    ? "font-DIN-Regular text-5xl md:text-6xl md:pl-0"
+                    : "font-DINArabic-Black text-4xl md:text-6xl pr-4"
                 }`}
               >
                 {t.How_to_enter}
@@ -74,8 +74,8 @@ const HowToEnter = () => {
               ${locale === "/" ? "font-DIN-Regular text-base" : "font-HelveticaNeueLTArabic-Roman text-sm"}
               `}
               >
-                <div className="pointers_main">
-                  <div className="flex-1">
+                <div className="pointers_main flex justify-start">
+                  <div className="flex justify-start">
                     <div
                       className={`pointers ${
                         locale === "/" ? "" : "pointers_ar"
@@ -86,11 +86,11 @@ const HowToEnter = () => {
                   </div>
                   <div>{t.step_1_content}</div>
                 </div>
-                <div className="pointers_main">
-                  <div className="flex-1">
+                <div className="pointers_main flex justify-start">
+                  <div className="">
                     <div
                       className={`pointers ${
-                        locale === "/" ? "" : "pointers_ar"
+                        locale === "/" ? "text-left" : "pointers_ar"
                       }`}
                     >
                       2
@@ -98,8 +98,8 @@ const HowToEnter = () => {
                   </div>
                   <div>{t.step_2_content}</div>
                 </div>
-                <div className="pointers_main">
-                  <div className="flex-1">
+                <div className="pointers_main flex justify-start">
+                  <div className="">
                     <div
                       className={`pointers ${
                         locale === "/" ? "" : "pointers_ar"
@@ -110,7 +110,7 @@ const HowToEnter = () => {
                   </div>
                   <div>{t.step_3_content}</div>
                 </div>
-                <div className="pointers_main justify-start items-center">
+                <div className="pointers_main flex justify-start items-center">
                   <div className="">
                     <div
                       className={`pointers ${

@@ -103,13 +103,13 @@ const RegistrationForm = () => {
           ${
             locale === "/"
               ? "font-DIN-Bold text-5xl md:text-5xl pl-4"
-              : "font-DINArabic-Black text-5xl md:text-6xl pr-4"
+              : "font-DINArabic-Black text-4xl md:text-6xl pr-4"
           }
           `}
           >
             {t.registration}
           </h2>
-          <form onSubmit={handleSubmit(onSubmit)} className="pl-4 pr-4 pt-2">
+          <form onSubmit={handleSubmit(onSubmit)} className="pl-4 pr-4 pt-2 mt-1">
             <div className="form-field ">
               <Input
                 id="name"
